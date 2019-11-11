@@ -1,5 +1,8 @@
 class Tax < ApplicationRecord
-  def tax( tax_percent )
-  price * 12.5
+
+
+  def fruits_taxes( price )
+  price * 7.5
+
   end
 end
